@@ -100,8 +100,9 @@ if torch.cuda.is_available():
     z.numpy()
 
 #requires grad default is false. if true, it tells torch that it will need to calculate the gradient later in optimzation step for that variable.
-#as the veriable needs to be optimzed
+#as the variable needs to be optimzed
 x = torch.ones(5, requires_grad = True)
+
 
 
 
