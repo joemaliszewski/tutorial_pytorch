@@ -21,6 +21,8 @@ print(loss)
 loss.backward()
 print(w.grad)
 
+#update wieghts
+#mext forward and backward pass
 
 
 
